@@ -1,7 +1,7 @@
 FROM i386/debian:stable
 
 ENV DUMB_INIT_VERSION=1.2.2 \
-    GENESHIFT_VERSION=1272 \
+    GENESHIFT_VERSION=1283 \
     GOSU_VERSION=1.11
 
 COPY build.sh /usr/local/bin/
